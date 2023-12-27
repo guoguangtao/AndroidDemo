@@ -2,10 +2,16 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.AndroidDemo" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
+
+        <!-- 颜色定义 -->
         <item name="colorPrimary">@color/red</item>
         <item name="colorAccent">@color/blue</item>
         <item name="colorContainer">@color/green</item>
         <item name="colorPrimaryDark">@color/grey</item>
+
+        <!-- 隐藏状态栏 -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
     <style name="Theme.AndroidDemo" parent="Base.Theme.AndroidDemo" />
