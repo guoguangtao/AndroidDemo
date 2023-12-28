@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android学习</string>
+    <string name="home_navigation_title">Study Android Demo</string>
 </resources>
